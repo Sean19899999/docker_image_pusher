@@ -3,3 +3,5 @@
 mysql:8.0
 chromadb/chroma:latest
 minio/minio:latest
+node:18-alpine
+python:3.11-slim
