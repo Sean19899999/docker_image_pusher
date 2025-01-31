@@ -1,7 +1,16 @@
 #支持私库
 #RAG Web UI 所需镜像
-mysql:8.0
+mysql/mysql:latest
 chromadb/chroma:latest
 minio/minio:latest
-node:18-alpine
-python:3.11-slim
+node/node:latest
+python/python:latest
+db/db:latest
+redis/redis:latest
+api/api:latest
+web/web:latest
+weaviate/weaviate:latest
+sandbox/sandbox:latest
+worker/worker:latest
+nginx/nginx:latest
+ssrf_proxy/ssrf_proxy:latest
